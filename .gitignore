@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Solana secrets — NEVER commit these
+keypair.json
+wallets/
+*.json.key
+id.json
+.env
+.env.*
+
+# Generated at runtime by the scripts
+asset-address.txt
+recipient-pubkey.txt
+
+# Build output & logs
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
